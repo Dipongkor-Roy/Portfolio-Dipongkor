@@ -7,10 +7,10 @@ const Header = ({ darkMode, setDarkMode }) => {
         <h2>WELCOME</h2>
 
         <div onClick={() => setDarkMode(!darkMode)}>
-          {darkMode ? (
-            <MdWbSunny className="text-2xl cursor-pointer" />
+          { darkMode ? (
+            <MdWbSunny className="text-2xl cursor-pointer"/>
           ) : (
-            <MdNightsStay className="text-2xl cursor-pointer" />
+            <MdNightsStay className="text-2xl cursor-pointer"/>
           )}
         </div>
       </nav>
