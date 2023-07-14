@@ -1,8 +1,13 @@
+import { useState } from "react";
+import Header from "./components/Header/Header";
 
 function App() {
+  const [darkMode,setDarkMode]=useState(false);
+
   return (
-    
-    <h2 className="text-red-500 text-5xl">Hellow buddy</h2>
+    <div className={darkMode && "dark"}> 
+      <Header darMode={darkMode} setDarkMode={setDarkMode}></Header>
+    </div>
     
   );
 }
