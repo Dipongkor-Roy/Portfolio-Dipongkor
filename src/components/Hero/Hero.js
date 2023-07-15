@@ -19,14 +19,14 @@ const Hero = () => {
       icon: <FaLinkedin />,
     },
   ];
-  
-// function for scroll down arrow hide
 
-window.addEventListener("scroll",function(){
-  const downArrow=document.querySelector(".down-arrow");
-  if(this.scrollY>=90) downArrow.classList.add("hide-down-arrow");
-  else downArrow.classList.remove("hide-down-arrow")
-})
+  // function for scroll down arrow hide
+
+  window.addEventListener("scroll", function () {
+    const downArrow = document.querySelector(".down-arrow");
+    if (this.scrollY >= 90) downArrow.classList.add("hide-down-arrow");
+    else downArrow.classList.remove("hide-down-arrow");
+  });
   return (
     <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
       <h2 className="text-5xl text-rose-600 uppercase font-bold  ">
@@ -65,7 +65,7 @@ window.addEventListener("scroll",function(){
         <a
           href="/dipongkor-resume.pdf"
           download={true}
-          className="flex justify-center items-center mt-10 py-2 bg-gradient-to-r from-rose-600 to-teal-500 text-white  rounded-lg"
+          className="flex justify-center items-center mt-10 py-2 bg-gradient-to-r from-rose-600 to-teal-500 text-white hover:from-rose-700 hover:to-teal-700 rounded-lg"
         >
           Resume
         </a>
