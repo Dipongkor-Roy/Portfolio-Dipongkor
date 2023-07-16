@@ -31,7 +31,7 @@ const Testimonials = () => {
       title="Testimonials 💬"
       subtitle="This is what my other clients have to say about me. I accept clients from all around the world."
     >
-        <div className="max-w-xl flex flex-col gap-2">
+        <div className="max-w-xl flex flex-col gap-8">
             {
                 testimonials.map(({id,image,name,comment})=>(
                     <div className="flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
