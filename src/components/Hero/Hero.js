@@ -1,17 +1,18 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa";
 import avatar from "../../assetsall/avatar.png";
 const Hero = () => {
   const social = [
     {
+ 
       id: 1,
-      link: "https://twitter.com/Juniordipu",
-      icon: <FaTwitter />,
+      link: "https://www.instagram.com/hellow_dipu/",
+      icon: <FaInstagram />,
     },
     {
       id: 2,
-      link: "https://www.facebook.com/dipongkor.roydipu.1/",
-      icon: <FaFacebook />,
+      link: "https://twitter.com/Juniordipu",
+      icon: <FaTwitter />,
     },
     {
       id: 3,
