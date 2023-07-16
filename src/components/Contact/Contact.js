@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
             {/* btn  */}
             <div className="flex items-center justify-center">
-            <button className="mt-8 bg-gradient-to-r from-rose-600 to-teal-500 text-white px-6 py-3  uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200">Send Message</button>
+            <button className="mt-8 bg-gradient-to-r from-rose-600 to-teal-500 hover:from-rose-700 hover:to-teal-600 text-white px-6 py-3  uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200">Send Message</button>
             </div>
           </form>
         </div>
