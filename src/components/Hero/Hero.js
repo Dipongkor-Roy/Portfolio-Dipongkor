@@ -36,7 +36,7 @@ const Hero = () => {
       <p className="max-w-xl font-light text-gray-500">
         Hello <span className="animate-pulse text-4xl">👋</span>
         Welcome to my site. I am a freelance full stack developer. I love to
-        work on Web app, Frontend and Backend technology
+        work on Web app, Frontend & Backend technology.
       </p>
 
       {/* social icons  */}
