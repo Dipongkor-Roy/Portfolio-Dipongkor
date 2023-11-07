@@ -14,9 +14,9 @@ const Portfolio = () => {
     {
       id: 1,
       image: p1,
-      title: "Best App",
-      github: "google.com",
-      demo: "demo.link",
+      title: "Travelly Travel Agency",
+      github: "https://github.com/Dipongkor-Roy/travelly-travel-website",
+      demo: "https://travelly-travel-website.netlify.app/",
     },
     {
       id: 2,
