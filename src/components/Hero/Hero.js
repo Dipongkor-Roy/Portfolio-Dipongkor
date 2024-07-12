@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa";
-import avatar from "../../assetsall/avatar.png";
+import avatar from "../../assetsall/profile-image.jpg";
 const Hero = () => {
   const social = [
     {
@@ -56,11 +56,11 @@ const Hero = () => {
       </div>
       {/* avatar and resume */}
       <div>
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center  ">
           <img
             src={avatar}
             alt="avatar"
-            className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 hover:from-teal-500 rounded-xl pt-5"
+            className="w-60 h-60 md:w-72 md:h-72 object-cover  bg-gradient-to-b from-rose-600 hover:from-teal-500 rounded-box aspect-square w-full sm:w-[26rem] sm:-m-2 sm:p-2 border-2 border-primary/10 bg-orange-200 pt-5"
           />
         </div>
         <a

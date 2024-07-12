@@ -3,9 +3,9 @@ import Common from "../common/Common";
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
 import p1 from "../../assetsall/p1.jpg";
-import p2 from "../../assetsall/p2.jpg";
+import p2 from "../../assetsall/p2.png";
 import p3 from "../../assetsall/p3.jpg";
-import p4 from "../../assetsall/p4.jpg";
+import p4 from "../../assetsall/p4.png";
 import p5 from "../../assetsall/p5.jpg";
 import p6 from "../../assetsall/p6.jpg";
 
@@ -14,30 +14,30 @@ const Portfolio = () => {
     {
       id: 1,
       image: p1,
-      title: "Travelly Travel Agency",
-      github: "https://github.com/Dipongkor-Roy/travelly-travel-website",
+      title:"Travelly Travel Agency",
+      github:"https://github.com/Dipongkor-Roy/travelly-travel-website",
       demo: "https://travelly-travel-website.netlify.app/",
     },
     {
       id: 2,
       image: p2,
-      title: "Best App",
+      title: "PodReseller",
       github: "google.com",
-      demo: "demo.link",
+      demo: "https://pod-reseller-client.vercel.app",
     },
     {
       id: 3,
       image: p3,
-      title: "Best App",
+      title: "Motion Master",
       github: "google.com",
-      demo: "demo.link",
+      demo: "https://motionmaster.vercel.app",
     },
     {
       id: 4,
       image: p4,
-      title: "Best App",
+      title: "Best Learnable",
       github: "google.com",
-      demo: "demo.link",
+      demo: "https://learnable-elearning.web.app",
     },
     {
       id: 5,
