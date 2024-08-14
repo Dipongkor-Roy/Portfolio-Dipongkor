@@ -4,55 +4,49 @@ import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
 import p1 from "../../assetsall/p1.jpg";
 import p2 from "../../assetsall/p2.png";
-import p3 from "../../assetsall/p3.jpg";
+import p3 from "../../assetsall/p3.png";
 import p4 from "../../assetsall/p4.png";
-import p5 from "../../assetsall/p5.jpg";
-import p6 from "../../assetsall/p6.jpg";
+import p5 from "../../assetsall/p5.png";
 
 const Portfolio = () => {
   const projects = [
     {
-      id: 1,
-      image: p1,
-      title:"Travelly Travel Agency",
-      github:"https://github.com/Dipongkor-Roy/travelly-travel-website",
-      demo: "https://travelly-travel-website.netlify.app/",
-    },
+      id: 5,
+      image: p5,
+      title: "SilentNote",
+      github: "",
+      demo: "https://pod-reseller-client.vercel.app",
+    }
+   ,
     {
       id: 2,
       image: p2,
       title: "PodReseller",
-      github: "google.com",
+      github: "",
       demo: "https://pod-reseller-client.vercel.app",
     },
     {
       id: 3,
       image: p3,
-      title: "Motion Master",
-      github: "google.com",
+      title: "MotionMaster",
+      github: "",
       demo: "https://motionmaster.vercel.app",
     },
     {
+      id: 1,
+      image: p1,
+      title:"Travelly",
+      github:"https://github.com/Dipongkor-Roy/travelly-travel-website",
+      demo: "https://travelly-travel-website.netlify.app/",
+    },
+   
+    {
       id: 4,
       image: p4,
-      title: "Best Learnable",
+      title: "Learnable",
       github: "google.com",
       demo: "https://learnable-elearning.web.app",
-    },
-    {
-      id: 5,
-      image: p5,
-      title: "Best App",
-      github: "google.com",
-      demo: "demo.link",
-    },
-    {
-      id: 6,
-      image: p6,
-      title: "Best App",
-      github: "google.com",
-      demo: "demo.link",
-    },
+    }
   ];
   return (
     <Common
@@ -68,7 +62,7 @@ const Portfolio = () => {
           >
             <img src={image} alt={title} className="w-2/3" />
             <div className="w-1/3 flex flex-col items-center justify-evenly p-1">
-              <h2>{title}</h2>
+              <h2 className="font-semibold text-xl bg-orange-100 p-0 rounded-md">{title}</h2>
               <a
                 className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
                 href={github}
@@ -78,7 +72,7 @@ const Portfolio = () => {
                 <FaGithub />
               </a>
               <a
-                className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
+                className="text-lg  cursor-pointer duration-150 hover:scale-110"
                 href={demo}
                 target="_blank"
                 rel="noopener noreferrer"

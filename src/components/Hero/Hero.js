@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa";
-import avatar from "../../assetsall/profile-image.jpg";
+import avatar from "../../assetsall/profile-image.webp";
 const Hero = () => {
   const social = [
     {
@@ -60,7 +60,7 @@ const Hero = () => {
           <img
             src={avatar}
             alt="avatar"
-            className="w-60 h-60 md:w-72 md:h-72 object-cover  bg-gradient-to-b from-rose-600 hover:from-teal-500 rounded-box aspect-square w-full sm:w-[26rem] sm:-m-2 sm:p-2 border-2 border-primary/10 bg-orange-200 pt-5"
+            className=" h-72  object-cover  bg-gradient-to-b from-rose-600 hover:from-teal-500 rounded-box aspect-square w-full  border-2 border-primary/10 bg-orange-200 p-0"
           />
         </div>
         <a
