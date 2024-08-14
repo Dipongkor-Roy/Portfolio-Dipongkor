@@ -23,7 +23,7 @@ function App() {
       subtitle="
         These are all the projects that I have worked on. Some of them I have worked before I gained some experience. So go gentle on them."
     >
-        <img src='https://shipfa.st/_next/static/media/demo.a9a3174c.png' alt="Contact Info" className="w-full h-full bg-slate-900 rounded-2xl p-2" />
+        <img src='https://shipfa.st/_next/static/media/demo.a9a3174c.png' alt="Contact Info" className="md:w-1/2 md:h-1/2 w-full h-full bg-slate-900 rounded-2xl p-2" />
         </Common>
         </div>
         <Portfolio />
