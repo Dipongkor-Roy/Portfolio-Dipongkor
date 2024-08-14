@@ -15,7 +15,7 @@ const Portfolio = () => {
       image: p5,
       title: "SilentNote",
       github: "",
-      demo: "https://pod-reseller-client.vercel.app",
+      demo: "https://silentnote-app.vercel.app",
     }
    ,
     {

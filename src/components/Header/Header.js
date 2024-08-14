@@ -12,12 +12,12 @@ const Header = () => {
     }`}>
       <nav className="flex justify-between items-center p-5 w-full">
       <div>
-      <h2 className="">WELCOME</h2>
+      <h2 className="text-white">WELCOME</h2>
       </div>
 
         <div className="" >
           { darkMode ? (
-            <MdNightsStay className="text-2xl cursor-pointer"/>
+            <MdNightsStay className="text-2xl cursor-pointer text-white"/>
           ) : (
             <MdWbSunny className="text-2xl cursor-pointer"/>
           )}
