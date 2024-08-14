@@ -62,7 +62,7 @@ const Portfolio = () => {
           >
             <img src={image} alt={title} className="w-2/3" />
             <div className="w-1/3 flex flex-col items-center justify-evenly p-1">
-              <h2 className="font-semibold  dark:bg-inherit p-0 ">{title}</h2>
+              <h2 className="font-semibold  dark:bg-inherit p-0 "> {title}</h2>
               <a
                 className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
                 href={github}
