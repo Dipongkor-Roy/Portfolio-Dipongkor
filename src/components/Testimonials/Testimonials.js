@@ -34,7 +34,7 @@ const Testimonials = () => {
         <div className="max-w-xl flex flex-col gap-8">
             {
                 testimonials.map(({id,image,name,comment})=>(
-                    <div className="flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
+                    <div className="flex p-4 justify-center items-center rounded-xl shadow-md shadow-gray-300">
                         <div className="w-1/3">
                             <img src={image} alt={name} className="w-25 h-25"/>
                         </div>

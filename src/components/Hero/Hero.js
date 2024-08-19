@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion"
 import { FaInstagram, FaTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa";
 import avatar from "../../assetsall/profile-image.webp";
 const Hero = () => {
@@ -56,20 +57,24 @@ const Hero = () => {
       </div>
       {/* avatar and resume */}
       <div>
-        <div className="flex justify-center items-center  ">
+        <motion.div initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ delay: 1, duration: 0.5 }}  className="flex justify-center items-center  ">
           <img
             src={avatar}
             alt="avatar"
             className=" h-72  object-cover  bg-gradient-to-b from-rose-600 hover:from-teal-500 rounded-box aspect-square w-full  border-2 border-primary/10 bg-orange-200 p-0"
           />
-        </div>
-        <a
+        </motion.div>
+        <motion.a
           href="/dipongkor-resume.pdf"
           download={true}
-          className="flex justify-center items-center mt-10 py-2 bg-gradient-to-r from-rose-600 to-teal-500 text-white hover:from-rose-700 hover:to-teal-700 rounded-lg"
+          className="flex justify-center items-center mt-10 py-2 bg-gradient-to-r from-rose-600 to-teal-500 text-white hover:from-rose-700 hover:to-teal-700 rounded-lg z-20  relative"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
         >
-          Resume
-        </a>
+         Resume
+        </motion.a>
       </div>
       {/* arrow down animation */}
       <div className="mt-10 down-arrow">
