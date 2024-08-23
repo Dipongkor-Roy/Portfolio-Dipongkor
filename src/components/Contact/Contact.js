@@ -26,7 +26,7 @@ const Contact = () => {
         <div>
           <p className="max-w-xs lg:max-w-xl font-extralight">
             I am open to talk regarding freelancing or full-time opportunities.
-            Fell free to ontact me using your preferred medium
+            Fell free to contact me using your preferred medium
           </p>
         </div>
         <div className="flex w-full items-center justify-evenly text-3xl ">
