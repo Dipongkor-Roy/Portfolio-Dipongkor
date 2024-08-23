@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"
-import { FaInstagram, FaTwitter, FaLinkedin, FaArrowDown } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedin, FaArrowDown, FaGithub } from "react-icons/fa";
 import avatar from "../../assetsall/profile-image.webp";
 const Hero = () => {
   const social = [
@@ -19,6 +19,11 @@ const Hero = () => {
       id: 3,
       link: "https://www.linkedin.com/in/dipongkor-roy/",
       icon: <FaLinkedin />,
+    },
+    {
+      id: 4,
+      link: "https://github.com/Dipongkor-Roy",
+      icon: <FaGithub />,
     },
   ];
 

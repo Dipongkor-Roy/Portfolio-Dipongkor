@@ -24,9 +24,11 @@ function LoaderSimple({ setLoading }) {
             controls.start({
                 opacity: 0,
                 transition: { duration: 1 }
-            });
+            }).then(() => setLocalLoading(false)); // Remove the loader from DOM
         }
     }, [loading, controls]);
+
+    if (!loading && !setLocalLoading) return null; // Don't render if not loading
 
     return (
         <motion.div

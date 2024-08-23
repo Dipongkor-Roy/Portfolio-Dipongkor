@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       {" "}
-      <LoaderSimple setLoading={setLoading} />
+      {loading && <LoaderSimple setLoading={setLoading} />}
       <div className="">
         {!loading && (
           <main className="  h-full w-full items-center px-5 custom-gradient text-white">
