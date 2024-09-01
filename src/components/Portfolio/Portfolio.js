@@ -7,6 +7,7 @@ import p2 from "../../assetsall/p2.png";
 import p3 from "../../assetsall/p3.png";
 import p4 from "../../assetsall/p4.png";
 import p5 from "../../assetsall/p5.png";
+import p6 from "../../assetsall/p6.webp";
 
 const Portfolio = () => {
   const projects = [
@@ -16,6 +17,14 @@ const Portfolio = () => {
       title: "SilentNote",
       github: "",
       demo: "https://silentnote-app.vercel.app",
+    }
+   ,
+    {
+      id: 6,
+      image: p6,
+      title: "Vidzo",
+      github: "",
+      demo: "https://vidzo-app.vercel.app",
     }
    ,
     {
