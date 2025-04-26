@@ -28,7 +28,7 @@ function App() {
         These are all the projects that I have worked on. Some of them I have worked before I gained some experience. So go gentle on them."
               >
                 <img
-                  src="https://shipfa.st/_next/static/media/demo.a9a3174c.png"
+                  src="https://shipfa.st/_next/static/media/demo.753bdb0f.pnghttps://shipfa.st/_next/static/media/demo.753bdb0f.png"
                   alt="Contact Info"
                   className="md:w-1/2 md:h-1/2 w-full h-full  rounded-2xl p-2"
                 />
