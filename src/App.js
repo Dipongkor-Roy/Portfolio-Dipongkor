@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import Lenis from "@studio-freight/lenis";
 
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -12,29 +11,10 @@ import LoaderSimple from "./components/LoaderPage/LoaderPage";
 
 function App() {
   const [loading, setLoading] = useState(true);
-  const lenis = useRef(null);
 
-  useEffect(() => {
-    // Initialize Lenis
-    lenis.current = new Lenis({
-      duration: 0.1, // Reduce the duration for less delay (default is 0.6)
-      easing: (t) => t, // Use a linear easing function for no delay
-      smooth: true,
-      smoothTouch: true,
-    });
 
-    const animate = (time) => {
-      lenis.current.raf(time);
-      requestAnimationFrame(animate);
-    };
 
-    requestAnimationFrame(animate);
-
-    // Cleanup on unmount
-    return () => {
-      lenis.current.destroy();
-    };
-  }, []);
+   
 
   return (
     <>
